@@ -12,14 +12,11 @@
     <header class="navigation">
         <a href="index.html" id="logo">Pokemon API</a>
     </header>
-    <div id="pokemonSearchBox">
-        <label for="pokemonId">Id do Pokemon:</label>
-        <input type="text" name="pokemonId" id="pokemonId">
-        <button onclick="searchPokemon()">Search</button>
+        <input type="text" name="pokemonId" id="pokemonId" maxlength="4">
+        <button onclick="searchPokemon()" id="pokemonButton">?<br>Pokemon</button>
         <h1 id="pokemonName"></h1>
         <h1 id="pokemonType"></h1>
         <h1 id="pokemonSkill"></h1>
         <h1 id="erroText"></h1>
-    </div>
 </body>
 </html>

@@ -3,6 +3,8 @@
     src: url('../Fonts/PokemonSolid.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
 .navigation {
     position: absolute;
     width: 100%;
@@ -23,9 +25,23 @@
     color: #fdd23c;
 }
 
-#pokemonSearchBox {
+#pokemonId{
     position: absolute;
-    top: 500px;
-    width: 500px;
-    height: 500px;
+    top: 25%;
+    left: 40%;
+    width: 11%;
+    height: 10%;
+    font-size: 5vw;
+}
+
+#pokemonButton{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    font-size: 4vw;
+    background-color: transparent;
+    border: none;
+    font-family: 'PokemonSolid';
+    color: #fdd23c;
+    -webkit-text-stroke: 0.1vw #3b82c4;
 }

@@ -14,9 +14,6 @@ function searchPokemon(){
         pokemonType.innerHTML = `Pokemon type: ${type}`; 
         const pokemonSkill = document.getElementById('pokemonSkill');
         pokemonSkill.innerHTML = `Pokemon ability: ${ability}`; 
-
-        const elementoTexto = document.getElementById('logo'); // Obtém o elemento desejado pelo ID
-        elementoTexto.style.fontFamily = 'PokemonHollow';
     })
     .catch(error => console.error(error));
 
