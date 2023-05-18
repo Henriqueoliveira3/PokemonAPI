@@ -9,14 +9,23 @@
     <script src='JavaScript/main.js'></script>
 </head>
 <body>
-    <header class="navigation">
-        <a href="index.html" id="logo">Pokemon API</a>
-    </header>
-        <input type="text" name="pokemonId" id="pokemonId" maxlength="4">
-        <button onclick="searchPokemon()" id="pokemonButton">?<br>Pokemon</button>
-        <h1 id="pokemonName"></h1>
-        <h1 id="pokemonType"></h1>
-        <h1 id="pokemonSkill"></h1>
-        <h1 id="erroText"></h1>
+    <div id="centerScreen">
+        <div id="centerBlackScreen">
+            <p id="pokemonName"></p>
+            <p id="pokemonType"></p>
+            <p id="pokemonSkill"></p>
+        </div>
+        <div id="redCircleCentralScreen"></div>
+        <div id="firstLine"></div>
+        <div id="secondLine"></div>
+        <div id="thirdLine"></div>
+        <div id="fourthLine"></div>
+    </div>
+    <input type="text" id="greenScreen" maxlength="4">
+    <button id="searchButton" onclick="searchPokemon()"></button>
+    <div id="darkRedLine"></div>
+    <div id="darkBlueLine"></div>
+    <div id="topJoyStick"></div>
+    <div id="horizontalJoyStick"></div>
 </body>
 </html>

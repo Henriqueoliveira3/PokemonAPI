@@ -1,5 +1,5 @@
 function searchPokemon(){
-    const pokemonId = document.getElementById('pokemonId').value;
+    const pokemonId = document.getElementById('greenScreen').value;
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
     .then(response => response.json())
     .then(data => {
