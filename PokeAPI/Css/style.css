@@ -142,3 +142,11 @@ body{
     font-family: 'LeagueSpartan';
     border-color: #212121;
 }
+
+#pokemonImage{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: auto;
+    height: auto;
+}
