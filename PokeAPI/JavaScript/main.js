@@ -5,7 +5,7 @@ searchButton.addEventListener('click',() => {
 })
 
 function searchPokemon(pokemonId){
-    if (pokemonId == 0 || pokemonId > 1010) {
+    if (pokemonId <= 0 || pokemonId > 1010) {
         pokemonName.innerHTML = 'No data!';
         const pokemonType = document.getElementById('pokemonType');
         pokemonType.innerHTML = ''; 
